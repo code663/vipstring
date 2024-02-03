@@ -37,7 +37,7 @@ import config
 ask_ques = "**» ▷ 𝐂𝐡𝐨𝐨𝐬𝐞 𝐓𝐡𝐞 𝐒𝐭𝐫𝐢𝐧𝐠 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 ✔️ : :**"
 buttons_ques = [
     [
-        InlineKeyboardButton("🎄𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌🎄", callback_data="pyrogram1"),
+        InlineKeyboardButton("🥀𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌🥀", callback_data="pyrogram1"),
         InlineKeyboardButton("🪴𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 𝐕2🪴", callback_data="pyrogram"),
     ],
     [
@@ -67,7 +67,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     if telethon:
         ty = "🍷𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍🍷"
     else:
-        ty = "🎄𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌🎄"
+        ty = "🥀𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌🥀"
         if not old_pyro:
             ty += " 𝐕2"
     if is_bot:
